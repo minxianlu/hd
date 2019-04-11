@@ -1,0 +1,16 @@
+spring:
+  thymeleaf:
+    #是否启用缓存
+    cache: false
+    #建议模板是否存在
+    check-template-location: true
+    #是否启用
+    enabled: true
+    #模板编码
+    encoding: utf-8
+    #模板模式
+    mode: HTML5
+    #模板存放路径
+    prefix: classpath:/templates/
+    #模板后缀
+    suffix: .html
